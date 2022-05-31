@@ -1,7 +1,7 @@
 {
-    "name": "Kanna BOT",
+    "name": " Ice-Bear",
     "version": "2.10.18",
-    "description": "RPG WhatsApp BOT",
+    "description": "RPG WhatsApp bot using library baileys",
     "main": "index.js",
     "type": "module",
     "directories": {
