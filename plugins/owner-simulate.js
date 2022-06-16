@@ -3,12 +3,12 @@ let handler = async (m, { conn, usedPrefix, command, args: [event], text }) => {
 ${usedPrefix + command} welcome @user
 ${usedPrefix + command} bye @user
 ${usedPrefix + command} promote @user
-${usedPrefix + command} demote @user`.trim(), wm, null, [['Welcome', '#simulate welcome'], ['Bye', '#simulate bye']])
+${usedPrefix + command} demote @user`.trim(), 'Sad-Bot', null, [['Welcome', '#simulate welcome'], ['Bye', '#simulate bye']])
     let mentions = text.replace(event, '').trimStart()
     let who = mentions ? conn.parseMention(mentions) : []
     let part = who.length ? who : [m.sender]
     let act = false
-    m.reply(`*${htjava} Simulating ${event}...*`)
+    m.reply(`*Simulating ${event}...*`)
     switch (event.toLowerCase()) {
         case 'add':
         case 'invite':
