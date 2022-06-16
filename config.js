@@ -44,7 +44,7 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/ananda_ganz7'
+global.sig = 'https://instagram.com/ananda_wisnu_a'
 global.sgh = 'https://github.com/AnandaGanz-bot'
 global.sgc = 'https://chat.whatsapp.com/BkxbwERGX9x0mAhAsiDWxP'
 global.sdc = 'https://discord.gg/WEJQjugTY7'
